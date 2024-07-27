@@ -1,0 +1,131 @@
+/* STYLE */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .Wrapper{
+    background: rgb(129,164,176);
+  background: radial-gradient(circle, rgba(129,164,176,1) 0%, rgba(204,225,251,1) 100%);
+  height: 100vh;
+  width: 100vw;
+  }
+  .Wrapper .insideWrapper{
+    width: 100%;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    height: 100%;
+
+  }
+  .Wrapper .insideWrapper .Log{
+    width: 30%;
+    height: 68%;
+    background: skyblue     ;
+    margin: 100px   auto 25% auto;
+    border-radius: 15px;
+    box-shadow: 1px 3.5px 5px rgba(0, 0, 0, 0.486);
+    justify-content: center;
+    align-items: center;
+  }
+  .Wrapper .insideWrapper .Log h1{
+    text-align: center;
+    color:  rgb(129,164,176);
+  }
+  .Wrapper .insideWrapper .Log .inputLogs{
+    width: 90%;
+    height: 50%;
+
+    margin-top: 22%;
+    margin-left: 6%;
+    align-content: center;
+    display: grid;
+    grid-template-rows:      1fr 1fr 1fr ;
+    
+  }
+  .Wrapper .insideWrapper .Log .inputLogs input{
+    width: 80%;
+    height: 100%;
+    outline: 0;
+    color: rgb(129,164,176) ;
+    margin-left: 10%;
+    border-radius: 5px;
+    margin-top: 8px;
+    text-align: center;
+    
+  }
+  .Wrapper .insideWrapper .Log button{
+    margin:20px auto 25% auto;
+    width: 20%;
+    height: 30px;
+
+  }
+  @media (max-width: 896px) {
+    body {
+      background-color: pink;
+    }
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      .Wrapper{
+        background: rgb(129,164,176);
+      background: radial-gradient(circle, rgba(129,164,176,1) 0%, rgba(204,225,251,1) 100%);
+      height: 100vh;
+      width: 100vw;
+      }
+      .Wrapper .insideWrapper{
+        width: 100%;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+        height: 100%;
+    
+      }
+      .Wrapper .insideWrapper .Log{
+        width: 90%;
+        height: 68%;
+        background: skyblue     ;
+        margin: 100px   auto 25% auto;
+        border-radius: 15px;
+        box-shadow: 1px 3.5px 5px rgba(0, 0, 0, 0.486);
+        justify-content: center;
+        align-items: center;
+      }
+      .Wrapper .insideWrapper .Log h1{
+        text-align: center;
+        color:  rgb(129,164,176);
+      }
+      .Wrapper .insideWrapper .Log .inputLogs{
+        width: 90%;
+        height: 40%;
+    
+        margin-top: 22%;
+        margin-left: 6%;
+        align-content: center;
+        display: grid;
+        grid-template-rows:      1fr 1fr 1fr ;
+        
+      }
+      .Wrapper .insideWrapper .Log .inputLogs input{
+        width: 80%;
+        height: 80%;
+        outline: 0;
+        color: rgb(129,164,176) ;
+        margin-left: 10%;
+        border-radius: 5px;
+        margin-top: 8px;
+        text-align: center;
+        
+      }
+      .Wrapper .insideWrapper .Log button{
+        margin:20px auto 25% auto;
+        width: 20%;
+        height: 30px;
+    
+      }
+     
+  }
